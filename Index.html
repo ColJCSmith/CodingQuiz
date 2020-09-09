@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<header>
+    <div id="countdown"></div>
+    <a id="highscores" href="./highscores.html">View highscores</a>
+</header>
+    <div class="quizContainer">
+        <h1 id="title">How well do you know Javascript?</h1>
+        <h3 id="intro">Test your knowledge of Javascript by answering these five questions as quickly as you can.  You have 60 seconds, and your score is the seconds you have remaining.  Be careful though, every wrong answer deducts 10 seconds from the timer!</h3>
+        <button id="startButton">Start Quiz</button>    
+        <div class="question"></div><br>
+        <ul class="choiceList"></ul><br>
+        <div class="quizMessage"></div><br>
+        <div class="result"></div><br>
+        <button id="nextButton">Next Question</button>
+        <br>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
