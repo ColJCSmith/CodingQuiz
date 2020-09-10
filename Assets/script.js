@@ -137,6 +137,7 @@ function displayScore() {
 function saveScore() {
     localStorage.setItem("Score", correctAnswers);
     localStorage.setItem("Player", initials);
+    console.log(initials);
   }
 
 function hideScore() {
